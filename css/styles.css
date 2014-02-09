@@ -1,3 +1,63 @@
 body {
-	background: url("../img/bg.png");
+	background: url("../img/bg-main.jpg");
+	font-family: 'Carme', sans-serif;
+	color: black;
+	
 }
+
+.container {
+	background: white;
+}
+
+.name {
+	text-align: center;
+}
+
+.resume {
+	background: white;
+	border: 3px solid black;
+	border-radius: 40px 40px 40px 40px;
+	text-align: center;
+	height: 50px;
+	line-height: 12px;
+	color: red;
+}
+
+section h3 {
+	color: red;
+}
+
+.alpha {
+	margin: 0 14px 10px 6px;
+}
+
+li {
+	height: 48px;
+	width: 177px;
+	line-height: 42px;
+	list-style: none;
+	margin: 0 20px 0 0;
+	padding: 0 0 0 60px;
+}
+
+.omega li a {
+	text-decoration: none;
+}
+
+#first:hover {
+	background: url("../img/crevado.png") no-repeat left center;
+}
+
+#second:hover {
+	background: url("../img/behance-logo-icon.png") no-repeat left center;
+}
+
+#third:hover {
+	background: url("../img/fb.jpg") no-repeat left center;
+}
+
+/*Shows Grid for Formating
+.showgrid {
+	background: url("../img/grid-bg.png") 
+}
+*/
