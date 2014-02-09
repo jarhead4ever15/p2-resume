@@ -31,6 +31,13 @@ section h3 {
 	margin: 0 14px 10px 6px;
 }
 
+.alpha h3 {
+	background: url("../img/work.png") no-repeat right center;
+	height: 40px;
+	width: 248px;
+	line-height: 40px;
+}
+
 li {
 	height: 48px;
 	width: 177px;
@@ -42,6 +49,13 @@ li {
 
 .omega li a {
 	text-decoration: none;
+}
+
+.education {
+	background: url("../img/education.png") no-repeat right center;
+	height: 40px;
+	width: 182px;
+	line-height: 40px;
 }
 
 #first:hover {
